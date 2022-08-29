@@ -103,7 +103,7 @@ export const predicatedTemperatureContainer = styled.div`
 `;
 
 export const WeatherTemperatureContainer = styled(
-	predicatedTemperatureContainer
+	predicatedTemperatureContainer,
 )`
 	div + div:after {
 		position: absolute;
