@@ -17,8 +17,6 @@ export const HomePage: FC<HomePageProps> = ({ data }) => {
 		return selectedDayHours.some(selectedIndex => selectedIndex === idx)
 	})
 
-	console.log(filteredTimePeriod)
-
 	const toggleTemperatureVersion = () => {
 		const newTemperature = temperatureVersion === "celsius" ? "fahrenheit" : "celsius"
 
