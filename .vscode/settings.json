@@ -73,6 +73,7 @@
 		"theming",
 		"toastify",
 		"esbuild",
-		"zeus"
+		"zeus",
+		"celsius"
 	]
 }
