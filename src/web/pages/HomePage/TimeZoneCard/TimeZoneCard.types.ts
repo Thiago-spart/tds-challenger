@@ -1,5 +1,5 @@
 export interface TimeZoneCardProps {
-	timeZoneType: "dawn" | "morning" | "afternoon" | "night";
+	timeZoneType: "afternoon" | "dawn" | "morning" | "night";
 	predicatedTemperature: string;
 	predicatedStatusIconUrl: string;
 	predicatedStatusIconAlt: string;

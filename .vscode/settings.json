@@ -28,14 +28,14 @@
 	// ================ Languages General Config ====================
 
 	// TypeScript
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
+	// "[typescript]": {
+	// 	"editor.defaultFormatter": "esbenp.prettier-vscode"
+	// },
 
-	// TypeScript With React
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
-	},
+	// // TypeScript With React
+	// "[typescriptreact]": {
+	// 	"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	// },
 
 	// JavaScript
 	"javascript.suggest.autoImports": true,
@@ -75,6 +75,7 @@
 		"esbuild",
 		"zeus",
 		"celsius",
-		"techmmunity"
+		"techmmunity",
+		"forecastday"
 	]
 }

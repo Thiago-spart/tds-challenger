@@ -24,7 +24,6 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
 		-webkit-font-smoothing: antialiased;
-    /* background: var(--background); */
 		background: linear-gradient(var(--background-top-color), var(--background-bottom-color));
     color: var(--text-color);
     ${fontFamily}

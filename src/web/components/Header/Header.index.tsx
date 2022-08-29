@@ -1,6 +1,6 @@
-import * as S from "./Header.styled"
+import { AiOutlineArrowLeft } from "react-icons/ai";
 
-import { AiOutlineArrowLeft } from "react-icons/ai"
+import * as S from "./Header.styled";
 
 export const Header = () => {
 	return (
@@ -9,5 +9,5 @@ export const Header = () => {
 				<AiOutlineArrowLeft />
 			</S.BackButton>
 		</S.Container>
-	)
-}
+	);
+};

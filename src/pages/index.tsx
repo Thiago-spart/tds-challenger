@@ -1,10 +1,13 @@
-import { GetServerSideProps, NextPage } from "next";
+import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
+
 import { api } from "services/api";
-import { WeatherDataProps } from "types/interfaces/weatherData";
+
 import { HomePage as Page } from "web/pages/HomePage/HomePage.index";
 
-import { SITE } from "../configs/site"
+import { SITE } from "../configs/site";
+
+import type { WeatherDataProps } from "types/interfaces/weatherData";
 
 interface HomePageProps {
 	data: WeatherDataProps;
@@ -18,7 +21,7 @@ const HomePage: NextPage<HomePageProps> = ({ data }) => {
 			</Head>
 			<Page data={data} />
 		</>
-	)
+	);
 };
 
 export const getServerSideProps: GetServerSideProps = async () => {
@@ -28,23 +31,23 @@ export const getServerSideProps: GetServerSideProps = async () => {
 			q: "London",
 			aqi: "no",
 			days: 1,
-			alerts: "no"
-		}
-	})
+			alerts: "no",
+		},
+	});
 
-	const weatherCityData = res.data
+	const weatherCityData = res.data;
 
 	if (!weatherCityData) {
 		return {
 			notFound: true,
-		}
+		};
 	}
 
 	return {
 		props: {
 			data: weatherCityData,
 		},
-	}
-}
+	};
+};
 
-export default HomePage
+export default HomePage;

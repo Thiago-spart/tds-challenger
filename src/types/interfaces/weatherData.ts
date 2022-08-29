@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 export interface ForecastHourItemProps {
 	chance_of_rain: number;
 	chance_of_snow: number;
