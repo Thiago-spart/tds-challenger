@@ -1,4 +1,4 @@
 export const SITE = {
-	name: "Captis",
+	name: "ForeCastThi",
 	url: "https://captis.app/",
 };
