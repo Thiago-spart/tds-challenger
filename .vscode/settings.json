@@ -73,11 +73,8 @@
 		"theming",
 		"toastify",
 		"esbuild",
-<<<<<<< HEAD
 		"zeus",
-		"celsius"
-=======
-		"zeus"
->>>>>>> master
+		"celsius",
+		"techmmunity"
 	]
 }

@@ -4,24 +4,24 @@ import { SITE } from "configs/site";
 
 export const HeadContent: FC = () => (
 	<>
-		<meta name="keywords" content="clips gaming esports e-sports" />
+		<meta name="keywords" content="weather climate forecast temperature" />
 		<meta name="robots" content="index,follow" />
 		<meta
 			name="description"
-			content="Captis is a social media platform built for sharing gaming clips, virtual photography, and E-Sports content. Sign up and start sharing today"
+			content="ForecastThi is a forecast platform built to follow your city's forecast."
 		/>
 		<meta
 			name="og:description"
-			content="Captis is a social media platform built for sharing gaming clips, virtual photography, and E-Sports content. Sign up and start sharing today"
+			content="ForecastThi is a forecast platform built to follow your city's forecast."
 		/>
-		<meta name="og:image" content="https://captis.app/logo-512.png" />
+		<meta name="og:image" content="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:title" content="Captis" />
+		<meta name="twitter:title" content="ForecastThi" />
 		<meta
 			name="twitter:description"
-			content="Captis is a social media platform built for sharing gaming clips, virtual photography, and E-Sports content. Sign up and start sharing today"
+			content="ForecastThi is a forecast platform built to follow your city's forecast."
 		/>
-		<meta name="twitter:image" content="https://captis.app/logo-512.png" />
+		<meta name="twitter:image" content="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 		<meta name="og:site_name" content={SITE.name} />
 		<meta name="og:url" content={SITE.url} />
 		<meta name="og:locale" content="en_US" />
