@@ -3,4 +3,5 @@ export interface TimeZoneCardProps {
 	predicatedTemperature: string;
 	predicatedStatusIconUrl: string;
 	predicatedStatusIconAlt: string;
+	temperatureVersion: "celsius" | "fahrenheit";
 }

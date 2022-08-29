@@ -12,6 +12,7 @@ export const CityDetailsContainer = styled.section`
 	justify-content: center;
 	flex-direction: column;
 	width: 100%;
+	cursor: pointer;
 	padding: 2rem 0;
 
 	h2 {
