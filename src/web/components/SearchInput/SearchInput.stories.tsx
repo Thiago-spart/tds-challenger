@@ -2,7 +2,7 @@
 /* eslint-disable import/exports-last */
 import type { ComponentStory, Meta } from "@storybook/react";
 
-import { SearchInput } from ".";
+import { SearchInput } from "./SearchInput.index";
 
 const meta: Meta<typeof SearchInput> = {
 	title: "Componentes/Input/Search",

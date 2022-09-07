@@ -1,7 +1,7 @@
 import type { FC, InputHTMLAttributes } from "react";
 import { BiSearch } from "react-icons/bi";
 
-import * as S from "./styled";
+import * as S from "./SearchInput.styled";
 
 export const SearchInput: FC<InputHTMLAttributes<HTMLInputElement>> = ({
 	type = "search",

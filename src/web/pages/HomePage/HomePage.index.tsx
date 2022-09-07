@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 import type { FC, KeyboardEvent } from "react";
 import { useState } from "react";
 
-import { Button } from "web/components/Button";
-import { SearchInput } from "web/components/SearchInput";
+import { Button } from "web/components/Button/Button.index";
+import { SearchInput } from "web/components/SearchInput/SearchInput.index";
 
 import * as S from "./HomePage.styled";
 
