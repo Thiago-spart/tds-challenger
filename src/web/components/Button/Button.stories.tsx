@@ -2,7 +2,7 @@
 /* eslint-disable import/exports-last */
 import type { ComponentStory, Meta } from "@storybook/react";
 
-import { Button } from ".";
+import { Button } from "./Button.index";
 
 const meta: Meta<typeof Button> = {
 	title: "Componentes/Button",

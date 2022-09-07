@@ -41,3 +41,7 @@ yarn-error.log*
 # public
 robots.txt
 sitemap.xml
+
+# Jest
+
+jest.config.ts
